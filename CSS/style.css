@@ -1,0 +1,249 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+ margin: 0;
+}
+
+.first-section {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    height: 550px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    justify-items: center;
+}
+
+#left{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #f0ce03;
+    justify-content: space-between;
+    flex-grow: 1;
+    align-items: center;
+}
+
+#first-container{
+    font-size: 16px;
+    justify-content: center;
+    margin-top: 75px;
+    margin-left:100px;
+
+    width: 340px;
+}
+
+#right{
+    display: flex;
+    flex-grow: 1;
+    align-items: right;
+    padding-left: 250px;
+}
+
+#diagonal{
+    height: 560px;
+}
+
+.valores{
+    display: flex;
+    background-color: black;
+    color: #f0ce03;
+    height: 500px;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    text-align: left;
+    padding: 50px 100px;
+}
+
+.metodo{
+    display: flex;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 300px;
+    justify-content: space-between;
+    gap: 300px;
+    padding-top: 30px;
+    padding-left: 250px;
+    padding-bottom: 100px;
+    padding-right: 150px;
+}
+
+.associate{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 400px;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 100px 50px;
+    text-align: left;
+    color: white;
+    gap: 450px
+}
+
+footer{
+    background-color: #f0ce03;
+    text-align: center;
+    height: 100px;
+    justify-items: center;
+    padding-top: 25px;
+}
+
+#title-fist-section{
+    color: white;
+    font-size: 50px;
+    margin: 0;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 16px
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+}
+
+.metodo h1{
+    color: #f0ce03;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0;
+
+}
+
+.associate h3{
+    color:#f0ce03;
+    text-transform: uppercase;
+}
+
+.heart{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 200px;
+}
+
+input{
+    margin-bottom: 25px;
+    padding: 10px 40px;
+}
+
+button{
+    color: black;
+    background-color: #f0ce03;
+    font-weight: bold;
+    padding: 5px 25px;
+    border: 0 solid white;
+    border-bottom: 3px solid white;
+}
+
+.valores p{
+    margin-bottom: 20px;
+}
+
+img{
+    margin-bottom: 10px;
+}
+
+.first-section button{
+    background-color: black;
+    color: #f0ce03;
+    padding: 5px 50px;
+}
+
+#associate-text{
+    margin-left: 50px;
+    margin-right: 25px;
+    padding-right: 200px;
+    padding-left: 50px;
+
+
+}
+
+#robot{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #f0ce03;
+    text-transform: uppercase;
+    width: 800px;
+    height: auto;
+    font-style: italic;
+}
+
+#bora{
+    font-size: larger;
+}
+
+#first-par{
+margin-bottom: 25px;
+}
+
+*{
+    border: 1px solid red;
+}
+
+#salve{
+    width: 586px;
+}
+
+input{
+    padding: 10px;
+    width: 100%;
+}

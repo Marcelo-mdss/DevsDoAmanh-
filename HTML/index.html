@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devs Do Amanhã</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+<script>
+    function minha_funcao(valor){
+        // console.log(valor);
+        const elem=document.querySelector("#form-name")
+        console.log(elem);
+        console.log(elem.placeholder);
+        console.log(elem.value);
+    }
+
+</script>
+
+<section>
+    <div class = "first-section">
+        <div id="left">
+            <div id="first-container">
+                <img src="/image/logo.jpg" alt="logo" width="150px" height="55px">
+                <h1 id="title-fist-section">Tecnologia é direito nosso </h1>
+                <h3>Quer aprender a programar na faixa ?</h3>
+                <button id="bora" onclick="minha_funcao('BORA!')">BORA!</button>
+            </div>
+        </div>
+        <img id="diagonal" src="/image/diagonal.png">
+        <div id="right">
+            <img src="/image/hero.png" width="450px" height="200px" >
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class = "valores">
+        <div>
+            <img id="code-image" src="/image/bodyHTML.png" width="450px" height="270px">
+        </div>
+
+        <div id="salve">
+            <img src="/image/salve.png" width="100%" >
+            <p>Nossa comunidade ajuda pessoas pretas e periféricas a dar o primeiro passo no universo da programação, começamdo pelo básico.</p>
+            <p>Você não precisa ter nenhum conhecimento prévio especifico, basta ter muita curiosidade e paixão por tecnologia!</p>
+            <button type="button" onclick="minha_funcao('Escreva-se')">Escreva-se!</button>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class = "metodo">
+            <div id="robot">
+            <img src="/image/robot.png" width="150px" height="150px">
+            <h1>O que cai na prova PROF.?</h1>
+            </div>
+
+            <div>
+            <h3>HTML & CSS</h3>
+            <p>O "arroz com feijão" da internet. Com esta matéria você vai ser capaz de criar página da web. Inclusive sites como este aqui! E para isso
+            você não precisa comprar ou gastar nada. Basta ter acesso a um computador e meter a mão na massa!
+            </p>
+            <h3>JAVASCRIPT</h3>
+            <p>Bem, se o HTML e o CSS são a base, agora chegou a hora da <i>mistura!</i> Com o JS,
+             você vai ser capaz de entender os princípios de lógica de programação,
+            que é o que nos permite criar todo tipo de automação e interatividade em projeto web.</p>
+            </div>
+    </div>
+</section>
+
+<section>
+    <div class = "associate">
+        <div id="associate-text">
+            <h1>COMO PARTICIPAR?</h1>
+            <p id="first-par">Nós queremos um Brasil mais justo com mais oportunidade para quem não tem condições de pagar para estudar e embarcar em TI</p>
+            <p>Nosso processo seletivo é baseado no contexto de vida dos candidatos e as vagas são limitadas para que possamos dar toda a atenção que nosso aprendizes merecem</p>
+        </div>
+
+        <div class = "heart">
+            <h3>Nós Vamos Trocar uma idéia com você</h3>
+            <img src="/image/heart.png" width="100px" height="100px">
+            <input type="text" placeholder="Como você se chama?" id="form-name">
+            <input type="text" placeholder="E-mail">
+            <input type="tel" placeholder="Celular">
+            <button type="submit">ENVIAR</button>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div>
+    <img src="/image/logo-small.png" width="75px" height="30px">
+    <p>Desde 2022</p>
+    </div>
+</footer>
+</body>
+</html>
